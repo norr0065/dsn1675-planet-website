@@ -31,47 +31,57 @@ img {
 }
 
 .banner{
-    display:block;
-    padding: .25rem;
+    overflow: hidden;
     background-color: #ccc;
 }
 
 h1{
     text-align: center;
-    margin:0;
+    margin: 0;
+    padding: 0;
 }
 
 .nav {
-    margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: #ccc;
-}
-
-.nav li {
-    border-top: 1px solid #666;
-    display:inline-block;
-    color: #0074D9;
-    text-align: center;
 }
 
 .nav a {
     display: block;
-    padding:0.5em 0.1em;
+    padding: 0;
     text-decoration: none;
-    color: #0074D9;
 }
 
-@media only screen and (min-width: 20em){
+@media only screen and (min-width: 30em) {
+    
+      .nav li {
+        display: inline-block;
+    }
+    
+    .nav{
+        text-align: center; 
+    }    
+}
 
+@media only screen and (min-width: 40em){
+
+    .nav li {
+        display: inline-block;
+    }
+    
+    .nav{
+        text-align: center; 
+    }    
+}
+
+@media only screen and (min-width: 60em){
+
+    .title {
+        float: left;
+    }
+      
     .nav {
-        text-align: center;
-        margin: 1.5rem;
-        padding: 0;
-        
-    }
-    .nav li{
-        display:inline-block;
-        border: 0;
+        float: left;
     }
 }
+    
