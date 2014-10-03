@@ -52,7 +52,7 @@ h1{
     text-decoration: none;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 26em) {
     
       .nav li {
         display: inline-block;
@@ -63,25 +63,16 @@ h1{
     }    
 }
 
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 44em) {
 
-    .nav li {
-        display: inline-block;
-    }
-    
     .nav{
-        text-align: center; 
-    }    
-}
-
-@media only screen and (min-width: 60em){
-
-    .title {
-        float: left;
+        text-align: left; 
     }
-      
-    .nav {
-        float: left;
-    }
-}
     
+    .title {
+        text-align: left;
+    }
+}
+
+
+
