@@ -98,6 +98,14 @@ h1{
     background-color: #e2e2e2;
 }
 
+.footer a::after {
+    content: " ·";
+}
+
+.footer li:last-child a::after {
+    content: none;
+}
+
 @media only screen and (min-width: 20em) {
     
       .nav li {
