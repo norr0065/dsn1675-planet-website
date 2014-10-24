@@ -118,10 +118,34 @@ h1{
         text-align: left; 
     }
     
+    .navbottom{
+        text-align: right;
+    }
+    .copyright{
+        text-align: left;
+    }
+    
     .title {
         text-align: left;
     }
 }
 
+@media only screen and (min-width: 60em) {
+    
+    dl {
+        overflow: hidden;
+    }
 
+    dt {
+        float:left;
+        clear:left;
+        width: 8rem;
+    }
+
+    dd {
+        float:left;
+        margin: 0;
+        padding:0;
+    }
+}
 
