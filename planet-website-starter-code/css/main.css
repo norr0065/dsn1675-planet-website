@@ -112,12 +112,9 @@ a:focus {
 }
 
 .sectionmedium {
-    background-color: #EBA4D4;
-}
-
-.sectiondark {
     background-color: #975ED4;
 }
+
 
 img {
   display: block;
@@ -132,6 +129,8 @@ img {
 .intro {
     background-color: #000;
     text-align: center;
+    margin:0;
+    padding:0;
 }
 
 h1{
