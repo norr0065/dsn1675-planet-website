@@ -108,7 +108,7 @@ a:focus {
 }
 
 .sectionlight {
-    background-color: #CFCAD9;
+    background-color: #000;
 }
 
 .sectionmedium {
@@ -126,11 +126,11 @@ img {
 
 .banner{
     overflow: hidden;
-    background-color: #ccc;
+    background-color: #000;
 }
 
 .intro {
-    background-color: #e2e2e2;
+    background-color: #000;
     text-align: center;
 }
 
@@ -138,6 +138,10 @@ h1{
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.whitetype {
+    color: white;
 }
 
 .nav {
@@ -151,8 +155,9 @@ h1{
 }
 
 .nav a:hover {
-    background-color: #0074d9;
+    background-color: #F916B3;
     color: white;
+    border-radius: 50%;
 }
     
 label{
@@ -187,7 +192,7 @@ button{
 }
 
 .footer {
-    background-color: #e2e2e2;
+    width: 100%;
 }
 
 .footer ul a::after {
