@@ -5,6 +5,38 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  font: normal 100%/1.5 serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd, figure,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1.5rem;
+}
+
+html {
+    font: normal 100%/1.5 "Oswald" sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd, figure,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand-family {
+    font-family: "PT Sans Narrow" sans-serif;
+}
+
+p, figcaption, dd, dt, a, label, button,
+.brand-family {
+    font-family: "PT Sans Narrow" sans-serif;
+}
+
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -76,15 +108,15 @@ a:focus {
 }
 
 .sectionlight {
-    background-color: #efefef;
+    background-color: #CFCAD9;
 }
 
 .sectionmedium {
-    background-color: #e2e2e2;
+    background-color: #EBA4D4;
 }
 
 .sectiondark {
-    background-color: #ccc;
+    background-color: #975ED4;
 }
 
 img {
